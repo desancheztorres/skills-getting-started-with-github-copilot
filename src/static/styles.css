@@ -28,6 +28,31 @@ header h1 {
   margin-bottom: 10px;
 }
 
+.participants-list {
+  list-style: none;
+  padding: 0;
+}
+
+.participants-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.delete-participant {
+  cursor: pointer;
+  color: #ff4444;
+  margin-left: 10px;
+  padding: 2px 6px;
+  border-radius: 3px;
+  transition: background-color 0.2s;
+}
+
+.delete-participant:hover {
+  background-color: #ffebee;
+}
+
 main {
   display: flex;
   flex-wrap: wrap;
@@ -72,6 +97,27 @@ section h3 {
 
 .activity-card p {
   margin-bottom: 8px;
+}
+
+.participants-header {
+  color: #1a237e;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+}
+
+.participants-list {
+  list-style-type: disc;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+
+.participants-list li {
+  color: #555;
+  font-size: 0.95em;
+  padding: 3px 0;
 }
 
 .form-group {
